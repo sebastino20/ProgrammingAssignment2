@@ -42,8 +42,12 @@ makeCacheMatrix <- function(x = matrix()) {
         x$setinverse(m)
         m
     }
+   
+    Test function
 x = rbind(c(3, 4), c(4, 3))
 m = makeCacheMatrix(x)
 m$get()
 cacheSolve(m)
+
+Thnaks to MengNan on the Cache time Publish
 
